@@ -1,0 +1,699 @@
+<?php 
+    $to = "mediawork112004@gmail.com"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $full_name = $_POST['username'];
+    $phone = $_POST['phone'];
+    $city = $_POST['city'];
+    $yourmessage = $_POST['yourmsg'];
+    $subject = "abjadtechnology";
+    $message = "\n" . $full_name . "\n" . $phone . "\n" . $city . "\n\n\n" . $yourmessage;
+
+    $headers = "From:" . $from;
+    mail($to,$subject,$message,$headers);
+?>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+    <head>
+        <!-- for responsive page -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--  -->
+        <meta name="description" content="نحن في ابجد التقنية نقدم الحلول العالمية لنظام تعقب المركبات والسيارات والمعدات بطريقة سلسة وباسعار مناسبة .">
+        <meta name="keywords" content="ابجد التقنية , تعقب المركبات, تعقب المركبات والسيارات, شركات نقل, المراية الذكية">       
+        <!-- for logo -->
+        <link rel="icon" href="images/icon.jpg">
+        <title>ابجد التقنية لتتبع المركبات</title>
+        <!-- frame work -->
+        <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
+        <!-- for Icon-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- for animation -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- fancybox -->
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+        <!-- style file -->
+        <link rel="stylesheet" href="css/main-style.css">
+    </head>
+    <body>
+        <!-- Start topheader -->
+        <header id="topheader" class="topheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9">
+                        <div class="contact-info">
+                            <a href="tel:ex.mgr@abjadtechnology.com‏" title="ex.mgr@abjadtechnology.com‏" target="_blank">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                ex.mgr@abjadtechnology.com‏
+                            </a>
+                            <a href="tel:0596898889" title="0596898889" target="_blank">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                0596898889
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="social">
+                            <a href="https://www.facebook.com/Abjadtechnology/" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/abjadtech/?r=nametag" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/abjadtech1" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--  End topheader -->
+        <!-- ------------------------------------------ -->
+        <!-- ------------------------------------------ -->
+        <!-- ------------------------------------------ -->
+        <!-- Start nav -->
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="d-md-none col-6">
+                        <div class="bars">
+                            <i class="fa fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-6">
+                        <div class="logo">
+                            <a href="index.html" title="كوكبة التقنية">
+                                <img src="images/logo-1.png" alt="كوكبة التقنية">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class='inside-links'>
+                            <ul>
+                                <li><a data-scroll="intro" href="#">الرئيسية</a></li>
+                                <li><a data-scroll="about" href="#">عنا</a></li>
+                                <li><a data-scroll="service" href="#">خدماتنا</a></li>
+                                <li><a data-scroll="product" href="#">منتجاتنا</a></li>
+                                <li><a data-scroll="program" href="#">البرنامج</a></li>
+                                <li><a data-scroll="partners" href="#">شركاء النجاح</a></li>
+                                <li><a data-scroll="contact" href="#">اتصل بنا</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--  End nav -->
+        <!-- ----------------------------------------- -->
+        <!-- ----------------------------------------- -->
+        <!-- ----------------------------------------- -->
+        <!-- Start intro -->
+        <section id="intro" class="intro">
+            <div>
+                <div class="overlay"></div>
+                <div id="slider" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#slider" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#slider" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/intro1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5 class="animated zoomIn delay-2">فى ابجد التقنية</h5>
+                                <p class="animated zoomIn delay-4">نقدم الحلول العالمية لنظام تعقب المركبات والسيارات والمعدات بطريقة سلسة</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/intro2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5 class="animated zoomIn delay-2">فى ابجد التقنية</h5>
+                                <p class="animated zoomIn delay-4">نقوم بتقديم حلول تشمل برامج واجهزة تلائم احتياجات ومتطلبات العملاء</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/intro3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5 class="animated zoomIn delay-2">فى ابجد التقنية</h5>
+                                <p class="animated zoomIn delay-4">تتبع مباشر كل 10 ثواني يظهر لك حركة المركبة والسرعة وعدد الكيلو مترات المقطوعة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control carousel-control-prev" href="#slider" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control carousel-control-next" href="#slider" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        <!--  End intro  -->
+        <!-- ---------------------------------------- -->
+        <!-- ---------------------------------------- -->
+        <!-- ---------------------------------------- -->
+        <!-- Start about -->
+        <section id="about" class="about">
+            <div class="container">
+                <h1 class="wow zoomIn delay-2">ابجد التقنية</h1>
+                <div class="h1-icon wow fadeIn delay-1"></div>
+                <div class="info">
+                    <p class="wow bounceInRight delay-2">يعمل نظام تتبع المركبات عن طريق ارسال المعلومات الخاصة بالمركبة  من خلال جهاز التتبع الموجود بالمركبة والذي يحتوي على جهاز يستقبل موقع السيارة وسرعتها من نظام تحديد المواقع عن طريق الأقمار الصناعية وإرسالها آليا لمحطة التحكم الخاص بلعميل عن طريق شبكة الهاتف الخليوي حيث يتم استقبال هذه المعلومات وعرضها على الخريطة الخاصة بالنظام واستخراج التقارير الخاصة بالسيارات.</p>
+                    <p class="wow bounceInLeft delay-2">نحن في ابجد التقنية نقدم الحلول العالمية لنظام تعقب المركبات والسيارات والمعدات بطريقة سلسة وباسعار مناسبة .</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-1">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-1.jpg">
+                                    <img src="images/about-1.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-2">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-2.jpg">
+                                    <img src="images/about-2.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-3">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-3.jpg">
+                                    <img src="images/about-3.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-1">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-4.jpg">
+                                    <img src="images/about-4.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-2">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-5.jpg">
+                                    <img src="images/about-5.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-3">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-6.jpg">
+                                    <img src="images/about-6.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-1">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-7.jpg">
+                                    <img src="images/about-7.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <div class="wow zoomIn delay-2">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-8.jpg">
+                                    <img src="images/about-8.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-12">
+                        <div class="wow zoomIn delay-3">
+                            <div>
+                                <a data-fancybox="gallery" href="images/about-9.jpg">
+                                    <img src="images/about-9.jpg">
+                                    <div class="bordered-div">
+                                        <i class="fa fa-eye"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bc-color"></div>
+            <div class="overlay"></div>
+        </section>
+        <!--  End about  -->
+        <!-- -------------------------------------- -->
+        <!-- -------------------------------------- -->
+        <!-- -------------------------------------- -->
+        <!-- Start service -->
+        <section id="service" class="service">
+            <div class="container">
+                <h1 class="wow zoomIn delay-2">خدمات البرنامج</h1>
+                <div class="h1-icon wow fadeIn delay-1"></div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i one-h wow bounceInRight delay-1">
+                            <i class="fa fa-car"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-1">
+                            <div class="title-con">
+                                <h3>تتبع مباشر</h3>
+                                <small>تتبع مباشر كل 10 ثواني يظهر لك حركة المركبة والسرعة وعدد الكيلو مترات المقطوعة خلال اليوم</small>
+                            </div>
+                            <span class="bg one"></span>
+                        </div>
+                        <span class="number one wow bounceInLeft delay-1">1</span>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i tow-h wow bounceInRight delay-2">
+                            <i class="fa fa-area-chart"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-2">
+                            <div class="title-con">
+                                <h3>تقارير</h3>
+                                <small>نقدم لك تقرير الحركة السابقة للمركبة .مبين مسار المركبة والسرعة والتوقفات</small>
+                            </div>
+                            <span class="bg tow"></span>
+                        </div>
+                        <span class="number tow wow bounceInLeft delay-2">2</span>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i three-h wow bounceInRight delay-3">
+                            <i class="fa fa-power-off"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-3">
+                            <div class="title-con">
+                                <h3>ايقاف المركبة</h3>
+                                <small>مع هذا الخاصية في حالة سرقة المركبة يمكن ان يقف المحرك تمام في ضغط زر</small>
+                            </div>
+                            <span class="bg three"></span>
+                        </div>
+                        <span class="number three wow bounceInLeft delay-3">3</span>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i four-h wow bounceInRight delay-1">
+                            <i class="fa fa-map"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-1">
+                            <div class="title-con">
+                                <h3>خرائط</h3>
+                                <small>في سهولة تامة مراقبة المركبة من خلال الخرائط العالمية</small>
+                            </div>
+                            <span class="bg four"></span>
+                        </div>
+                        <span class="number four wow bounceInLeft delay-1">4</span>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i five-h wow bounceInRight delay-2">
+                            <i class="fa fa-commenting"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-2">
+                            <div class="title-con">
+                                <h3>رسايل واشعارات</h3>
+                                <small>تقدم لك هذا الخاصية الرسايل عن طريق الرسايل الجوال او البريد الألكتروني</small>
+                            </div>
+                            <span class="bg five"></span>
+                        </div>
+                        <span class="number five wow bounceInLeft delay-2">5</span>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 col-6">
+                        <span class="i six-h wow bounceInRight delay-3">
+                            <i class="fa fa-bullhorn"></i>
+                        </span>
+                        <div class="title animated zoomIn delay-3">
+                            <div class="title-con">
+                                <h3>الانذارات</h3>
+                                <small>يمكن تفعيل الانذارات للمركبة منهاانذار فصل الجهاز او فصل البطارية . تجاوز السرعة المحددة</small>
+                            </div>
+                            <span class="bg six"></span>
+                        </div>
+                        <span class="number six wow bounceInLeft delay-3">6</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  End service  -->
+        <!-- ------------------------------------- -->
+        <!-- ------------------------------------- -->
+        <!-- ------------------------------------- -->
+        <!-- Start customer -->
+        <section id="customer" class="customer">
+            <div class="container">
+                <h1 class="wow zoomIn delay-2">عملاء تتبع المركبات</h1>
+                <div class="h1-icon wow fadeIn delay-1"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="info wow bounceInRight delay-1">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>شركات نقل الطلاب</small>
+                        </div>
+                        <div class="info wow bounceInRight delay-1">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>شركات نقل البطاعة</small>
+                        </div>
+                        <div class="info wow bounceInRight delay-2">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>شركات الحراسات الامنية – ونقل الاموال</small>
+                        </div>
+                        <div class="info wow bounceInRight delay-2">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>شركات تاجيرالسيارات</small>
+                        </div>
+                        <div class="info wow bounceInRight delay-3">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>شركات توزيع المواد الغذائية – ادوية -وغيرها</small>
+                        </div>
+                        <div class="info wow bounceInRight delay-3">
+                            <span><i class="fa fa-check-square-o"></i></span>
+                            <small>الافراد – السيارات الخاصة</small>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="car wow zoomIn delay-3">
+                            <img src="images/customer.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  End customer  -->
+        <!-- ------------------------------------ -->
+        <!-- ------------------------------------ -->
+        <!-- ------------------------------------ -->
+        <!-- Start product -->
+        <section id="product" class="product">
+            <div class="container">
+                <h1 class="wow zoomIn delay-2">المنتجات</h1>
+                <div class="h1-icon wow fadeIn delay-1"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="wow bounceInRight delay-2">1</span>
+                        <h3 class="wow bounceInRight delay-1">جهاز M528</h3>
+                        <div class="info wow zoomIn delay-2">
+                            <p>مناسب للمعدات والشاحنات واليات الحفر مع تحمل درجة حرارة عالية اذا كان لديك اسطول من الشاحنات او المعدات تعمل خارج المدن فأن جهاز M528 مناسب لك .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img wow bounceInLeft delay-2">
+                            <img src="images/product1.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 order-2">
+                        <div class="img wow bounceInRight delay-2">
+                            <img src="images/product2.png">
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-1">
+                        <span class="wow bounceInLeft delay-2">2</span>
+                        <h3 class="wow bounceInLeft delay-1">جهاز M588</h3>
+                        <div class="info wow zoomIn delay-2">
+                            <p>جهاز M588 مناسب للسيارات السيدان والدراجات النارية اذا كان لديك اسطول من المركبات الوزن الخيف او اذا كان لديك مركبة واحدة داخل المدن  فأن جهاز M588مناسب لك .</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="wow bounceInRight delay-2">3</span>
+                        <h3 class="wow bounceInRight delay-1">المراية الذكية T8</h3>
+                        <div class="info wow zoomIn delay-2">
+                            <p>مكن المشاهدة من خلالها الطريق مباشرة بجودة HD يمكن ان تشغل الفيديو والصور عن طريق الجوال تدعم ذاكرة خارجية 32قيقا .</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img wow bounceInLeft delay-2">
+                            <img src="images/product3.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  End product  -->
+        <!-- -------------------------------------- -->
+        <!-- -------------------------------------- -->
+        <!-- -------------------------------------- -->
+        <!-- Start program -->
+        <section id="program" class="program">
+           <div class="container">
+               <h1 class="wow zoomIn delay-2">البرنامج</h1>
+               <div class="h1-icon wow fadeIn delay-1"></div>
+               <div class="row">
+                   <div class="col-lg-6">
+                       <div class="info wow bounceInRight delay-2">
+                           <div class="info-con">
+                                <p>الرجاء تسجيل الرخول للبرنامج</p>
+                                <p>باسم المستخدم (demo)</p>
+                                <p>بكلمة المرور (demo)</p>
+                           </div>
+                           <a href="http://www.sauditracking.com/webgps/Login.aspx" target="_blank">
+                               <button type="button" class="btn btn-warning">دخول للبرنامج</button>
+                           </a>
+                           <div class="download">
+                               <a href="https://apps.apple.com/sa/app/abjad-tech/id1181819597" target="_blank">
+                                   <img src="images/badge-apple.png">
+                               </a>
+                               <a href="https://play.google.com/store/apps/details?id=com.myrope.abjad" target="_blank">
+                                   <img src="images/badge-google.png">
+                               </a>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-lg-6">
+                       <div class="img wow bounceInLeft delay-2">
+                           <img src="images/program.png">
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </section>
+        <!--  End program  -->
+        <!-- ------------------------------------- -->
+        <!-- ------------------------------------- -->
+        <!-- ------------------------------------- -->
+        <!-- Start partners -->
+        <section id="partners" class="partners">
+           <div class="container">
+               <h1 class="wow zoomIn delay-2">شركاء النجاح</h1>
+               <div class="h1-icon wow fadeIn delay-1"></div>
+               <div class="cascade-slider_container" id="cascade-slider">
+                <div class="cascade-slider_slides">
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/1.png" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/2.jpg" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/3.jpg" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/4.png" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/5.jpg" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/6.jpg" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/7.jpg" alt="">
+                    </div>
+                    <div class="cascade-slider_item">
+                        <img src="images/partners/8.jpg" alt="">
+                    </div>
+                </div>
+                <ol class="cascade-slider_nav">
+                    <li class="cascade-slider_dot cur"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                    <li class="cascade-slider_dot"></li>
+                </ol>
+                <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev"><i class="fa fa-angle-left fa-2x"></i></span>
+                <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next"><i class="fa fa-angle-right fa-2x"></i></span>
+            </div>
+           </div>
+        </section>
+        <!--  End partners  -->
+        <!-- ------------------------------------ -->
+        <!-- ------------------------------------ -->
+        <!-- ------------------------------------ -->
+        <!-- Start Message -->
+        <section id="contact" class="message">
+           <div class="container">
+               <h1 class="wow zoomIn delay-2">راسلنا</h1>
+               <div class="h1-icon wow fadeIn delay-1"></div>
+               <div class="contact-form">
+                   <form action="send.php" method="POST" autocomplete="off">
+                       <div class="row">
+                           <div class="col-lg-6 wow bounceInRight delay-2">
+                               <input type="text" placeholder="الأسم" name="username" required>
+                               <br>
+                               <input type="text" placeholder="البريد الألكترونى" name="email" required>
+                               <br>
+                               <input type="text" placeholder="الهاتف" name="phone">
+                               <br>
+                               <input type="text" placeholder="المدينة" name="city">
+                               <br>
+                           </div>
+                           <div class="col-lg-6 wow bounceInLeft delay-2">
+                               <textarea name="yourmsg" placeholder="الرسالة ....." rows="10" cols="40"></textarea>
+                               <br>
+                               <input type="submit" value="إرسال">
+                           </div>
+                       </div>
+                   </form>
+               </div>
+           </div>
+        </section>
+        <!--  End Message  -->
+        <!-- Start contact -->
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-6">
+                        <h1>بيانات التواصل</h1>
+                        <div class="contact-number">
+                            <h2>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                أرقام التواصل
+                            </h2>
+                            <div>
+                                <span>966596898889+</span>
+                                <span>966593939889+</span>
+                            </div>
+                        </div>
+                        <div class="contact-mail">
+                            <h2>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                البريد الإلكترونى
+                            </h2>
+                            <div>
+                                <span>ex.mgr@abjadtechnology.com</span>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <h2>
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                مواقع التواصل
+                            </h2>
+                            <div>
+                                <a href="https://www.facebook.com/Abjadtechnology/" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <a href="https://www.instagram.com/abjadtech/?r=nametag" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <a href="https://twitter.com/abjadtech1" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="col-md-4 col-6">
+                       <h1>مقر الشركة</h1>
+                       <div class="work-time">
+                           <h2>
+                               <i class="fa fa-clock-o" aria-hidden="true"></i>
+                               مواعيد العمل
+                           </h2>
+                           <div>
+                               <span>السبت-الخميس</span>
+                               <span>9:00 صباحا-4:30 مساء</span>
+                               <span>الجمعة إجازة</span>
+                           </div>
+                       </div>
+                       <div class="company-place">
+                           <h2>
+                               <i class="fa fa-home" aria-hidden="true"></i>
+                               مقر الشركة
+                           </h2>
+                           <div>
+                               <span>المملكة العربية السعودية</span>
+                               <span>جدة</span>
+                               <span>حي الفيصلية</span>
+                               <span>مبنى الفيصلية الاداري</span>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-md-4">
+                       <h1>موقع الشركة</h1>
+                       <div class="map">
+                           <iframe src="https://maps.google.com/maps?q=%D8%A7%D8%A8%D8%AC%D8%AF%20%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9%20%D8%AA%D8%AA%D8%A8%D8%B9%20%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%A8%D8%A7%D8%AA%E2%80%AD&t=m&z=18&output=embed&iwloc=near" frameborder='0' style="border: 0;" allowfullscreen></iframe>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--  End contact  -->
+       <!-- Start Footer -->
+       <footer>
+           <div class="container">
+               <div>
+                   <span>جميع الحقوق محفوظة لشركة ابجد التقنية &copy; 2021</span>
+               </div>
+           </div>
+       </footer>
+       <!--  End Footer -->
+
+        <!-- starting button-top -->
+        <div id="button-top">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+        <!-- End button-top -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
+        <script src="js/cascade-slider.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main-script.js"></script>
+    </body>
+</html>
